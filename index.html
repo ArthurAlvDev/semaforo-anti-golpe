@@ -4,6 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Semáforo Anti-Golpe — OlacDev</title>
+  <meta name="description" content="Triagem rápida e 100% local de links e mensagens suspeitas (Pix, falso familiar e phishing). Parte da suíte complementar ao Escudo Sênior." />
+  <meta property="og:title" content="Semáforo Anti-Golpe — Triagem Rápida de Golpes" />
+  <meta property="og:description" content="Verifique sinais de Pix urgente, links encurtados e falso familiar 100% no seu aparelho." />
+  <meta property="og:type" content="website" />
+  <script defer src="/_vercel/insights/script.js"></script>
   <style>
     :root { --bg: #f8fafc; --card: #fff; --text: #0f172a; --muted: #475569; --primary: #b91c1c; --border: #cbd5e1; }
     * { box-sizing: border-box; }
@@ -23,6 +28,10 @@
     <textarea id="msg" placeholder="Ex.: Oi mãe, mudei de número, preciso de um Pix urgente..."></textarea>
     <button id="check" type="button">Analisar Mensagem</button>
     <section id="out" aria-live="polite"></section>
+    <aside class="card" aria-label="Suíte complementar">
+      <h2>Leitura segura para idosos (Suíte Complementar)</h2>
+      <p>O <strong>Semáforo Anti-Golpe</strong> faz triagem rápida de links e mensagens suspeitas. Para leitura ampliada e explicação passo a passo para o público sênior, conheça o <a href="https://escudo.olacdev.com/" target="_blank" rel="noopener noreferrer">Escudo Sênior</a>.</p>
+    </aside>
   </main>
   <footer>Made by <a href="https://olacdev.com/" target="_blank" rel="noopener noreferrer">OlacDev</a></footer>
   <script type="module">
